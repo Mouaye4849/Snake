@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bg-grid {
+    background-color: #0a0a0a;
+    background-image: linear-gradient(#111 1px, transparent 1px),
+        linear-gradient(90deg, #111 1px, transparent 1px);
+    background-size: 40px 40px;
+    animation: gridMove 12s linear infinite;
+}
+
+@keyframes gridMove {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 40px 40px;
+    }
+}
+
+
+.neon-text {
+    color: #00e5ff;
+    text-shadow: 0 0 10px #00e5ff, 0 0 20px #00fcff;
+}
+
+/* مؤشر الكتابة */
+.blinking {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
