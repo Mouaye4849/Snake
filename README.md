@@ -1,16 +1,61 @@
-# React + Vite
+# Bienvenue dans Mission NIRD – Sauve ton École !
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un jeu éducatif interactif inspiré du style Duolingo, conçu pour la Nuit de l’Info 2025
 
-Currently, two official plugins are available:
+# Objectif du projet
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce projet a été développé dans le cadre du défi officiel :
+Comment réduire la dépendance aux Big Tech dans les établissements scolaires ?
+David contre Goliath numérique – Démarche NIRD
+L’objectif est de créer une expérience ludique, immersive et motivante pour sensibiliser élèves, enseignants, familles et collectivités au :
+✔ Numérique Inclusif
+✔ Numérique Responsable
+✔ Numérique Durable
+Le jeu amène le joueur à sauver son école en réalisant plusieurs missions interactives.
 
-## React Compiler
+# Concept du jeu : Mission NIRD
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Le joueur suit une série de leçons interactives, gamifiées et progressives :
+Niveau 1 – Comprendre la dépendance aux Big Tech
+Mini-scénario + explication interactive.
+Niveau 2 – Classement Drag & Drop
+Séparer bonnes/mauvaises pratiques numériques.
+Niveau 3 – Puzzle / sélection d’actions NIRD
+Choisir les solutions responsables.
+Niveau 4 – Scénario interactif “Sauve ton École !”
+Choix multiples → plusieurs chemins possibles.
+Niveau 5 – Mini-jeu de décision
+Le joueur doit gérer le numérique de l'école.
+Niveau Final – Bravo ! Tu es un Résistant Numérique
+Avec animation confetti
 
-## Expanding the ESLint configuration
+## Ressources utilisées
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Framework & outils
+React.js (Vite)
+React Router DOM — gestion des niveaux du jeu
+TailwindCSS — design rapide et responsive
+canvas-confetti — animation finale
+Vercel — hébergement du site
+🔹 Ressources NIRD
+(Recommandées par le sujet)
+NIRD officiel :
+https://nird.forge.apps.education.fr/
+Vidéo France 3 – Logiciels libres
+Podcast France Inter — Obsolescence programmée
+Vidéo BackMarket — L’ordinateur obsolète
+🔹 Ressources libres utilisées
+Icônes : HeroIcons (MIT)
+Illustrations libres : unDraw / Pixabay
+Police : Inter (Google Fonts)
+Toutes les ressources sont libres de droits conformément aux règles du défi.
+
+## Installation
+git clone https://github.com/USERNAME/mission-nird.git
+cd mission-nird
+npm install
+npm run dev
+
+## Déploiement
+https://projet-principal.vercel.app/
+Chaque push sur main déclenche un nouveau déploiement automatique.
